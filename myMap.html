@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_5708984092f94ac581929147140cf143 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_5708984092f94ac581929147140cf143" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_5708984092f94ac581929147140cf143 = L.map(
+        'map_5708984092f94ac581929147140cf143', {
+        center: [27.67248, 85.378214],
+        zoom: 100,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_68ff5850321a4d29b275767d3039594c = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_5708984092f94ac581929147140cf143);
+    
+            var feature_group_3d1c2098bb874da6a86644f15bcfe905 = L.featureGroup(
+                ).addTo(map_5708984092f94ac581929147140cf143);
+        
+    
+        var marker_442d2cafce8c40c8bdec7cdeed09b279 = L.marker(
+            [27.429009000000004, 87.768247],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_3d1c2098bb874da6a86644f15bcfe905);
+        
+    
+
+                var icon_a45d8b983f5a4e85b99545e74b098e79 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_442d2cafce8c40c8bdec7cdeed09b279.setIcon(icon_a45d8b983f5a4e85b99545e74b098e79);
+            
+    
+            var popup_47b3ad029aff4f53986946b5e3045676 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5eba50b1d70b4e859a016cafcdd487a2 = $('<div id="html_5eba50b1d70b4e859a016cafcdd487a2" style="width: 100.0%; height: 100.0%;">Pathibhara Temple</div>')[0];
+                popup_47b3ad029aff4f53986946b5e3045676.setContent(html_5eba50b1d70b4e859a016cafcdd487a2);
+            
+
+            marker_442d2cafce8c40c8bdec7cdeed09b279.bindPopup(popup_47b3ad029aff4f53986946b5e3045676)
+            ;
+
+            
+        
+    
+        var marker_da1bf1ff3e394688bf342cc11c66754a = L.marker(
+            [28.083997999999998, 85.414692],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_3d1c2098bb874da6a86644f15bcfe905);
+        
+    
+
+                var icon_4c6f2b9ba9f047e2bcf053d2f1ecad83 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_da1bf1ff3e394688bf342cc11c66754a.setIcon(icon_4c6f2b9ba9f047e2bcf053d2f1ecad83);
+            
+    
+            var popup_4509001667364fb599e8440ab1c33304 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fe6050d165024593a588d4edfaa165e4 = $('<div id="html_fe6050d165024593a588d4edfaa165e4" style="width: 100.0%; height: 100.0%;">Gosaikunda</div>')[0];
+                popup_4509001667364fb599e8440ab1c33304.setContent(html_fe6050d165024593a588d4edfaa165e4);
+            
+
+            marker_da1bf1ff3e394688bf342cc11c66754a.bindPopup(popup_4509001667364fb599e8440ab1c33304)
+            ;
+
+            
+        
+    
+        var marker_6dbdcb76b10945e3b52a26521161b733 = L.marker(
+            [29.944364, 78.16093199999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_3d1c2098bb874da6a86644f15bcfe905);
+        
+    
+
+                var icon_0578b6e864c04d08b7ab380366a2515b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6dbdcb76b10945e3b52a26521161b733.setIcon(icon_0578b6e864c04d08b7ab380366a2515b);
+            
+    
+            var popup_4093229c85d04d59afbbb70c38f35df2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9a9cf3e7574c45e493984765b550c577 = $('<div id="html_9a9cf3e7574c45e493984765b550c577" style="width: 100.0%; height: 100.0%;">Haridwar</div>')[0];
+                popup_4093229c85d04d59afbbb70c38f35df2.setContent(html_9a9cf3e7574c45e493984765b550c577);
+            
+
+            marker_6dbdcb76b10945e3b52a26521161b733.bindPopup(popup_4093229c85d04d59afbbb70c38f35df2)
+            ;
+
+            
+        
+    
+        var marker_dd0af5703d634dd9badf829d8ee54413 = L.marker(
+            [26.876356, 87.33251899999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_3d1c2098bb874da6a86644f15bcfe905);
+        
+    
+
+                var icon_193a37c3bad64e228c13ce065b296359 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dd0af5703d634dd9badf829d8ee54413.setIcon(icon_193a37c3bad64e228c13ce065b296359);
+            
+    
+            var popup_160a887f41ae4d1ba234cd9b2dc6207c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b2c503d8f42449e18777e659b74424e6 = $('<div id="html_b2c503d8f42449e18777e659b74424e6" style="width: 100.0%; height: 100.0%;">Namaste jharna</div>')[0];
+                popup_160a887f41ae4d1ba234cd9b2dc6207c.setContent(html_b2c503d8f42449e18777e659b74424e6);
+            
+
+            marker_dd0af5703d634dd9badf829d8ee54413.bindPopup(popup_160a887f41ae4d1ba234cd9b2dc6207c)
+            ;
+
+            
+        
+    
+        var marker_386eb5c36df84174af4c3af081d1b477 = L.marker(
+            [27.672271000000002, 85.378393],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_3d1c2098bb874da6a86644f15bcfe905);
+        
+    
+
+                var icon_62ab9b89ab174194a562c9e95b3cd6e4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_386eb5c36df84174af4c3af081d1b477.setIcon(icon_62ab9b89ab174194a562c9e95b3cd6e4);
+            
+    
+            var popup_18582d33c1f048649afd32b085fa8287 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_22204c4d8eb942fb9c32cce32c3e3d3a = $('<div id="html_22204c4d8eb942fb9c32cce32c3e3d3a" style="width: 100.0%; height: 100.0%;">Where I live now</div>')[0];
+                popup_18582d33c1f048649afd32b085fa8287.setContent(html_22204c4d8eb942fb9c32cce32c3e3d3a);
+            
+
+            marker_386eb5c36df84174af4c3af081d1b477.bindPopup(popup_18582d33c1f048649afd32b085fa8287)
+            ;
+
+            
+        
+    
+        var marker_4607de83222e458a96397682c454a0c7 = L.marker(
+            [26.669453000000004, 87.382813],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_3d1c2098bb874da6a86644f15bcfe905);
+        
+    
+
+                var icon_5bcb0175a8a14583b5e6ff2b45133043 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4607de83222e458a96397682c454a0c7.setIcon(icon_5bcb0175a8a14583b5e6ff2b45133043);
+            
+    
+            var popup_eb485983ddec48ae829079022dbc9cb2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f14fb76a1dfd42578b69cf3d7e0a3af2 = $('<div id="html_f14fb76a1dfd42578b69cf3d7e0a3af2" style="width: 100.0%; height: 100.0%;">This is Home</div>')[0];
+                popup_eb485983ddec48ae829079022dbc9cb2.setContent(html_f14fb76a1dfd42578b69cf3d7e0a3af2);
+            
+
+            marker_4607de83222e458a96397682c454a0c7.bindPopup(popup_eb485983ddec48ae829079022dbc9cb2)
+            ;
+
+            
+        
+</script>
